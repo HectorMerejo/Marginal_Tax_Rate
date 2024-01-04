@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<link href="marginal-tax.css" rel="stylesheet" type="text/css"></link>
+	</head>
+	<body>
+		<div class="body row">
+			<div class="column1">
+
+				<h2>Input</h2>
+				<form id="input"
+				
+					method="get">
+					<label>Year:</label>
+					<select id="year" name="year">
+						<option value="2024" selected="selected">2024</option>
+						<option value="2023">2023</option>
+						<option value="2022">2022</option>
+						<option value="2021">2021</option>
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>
+					</select>
+					<br />
+						<label>Status:</label>
+						<select id="status" name="status">
+							<option value="S" selected="selected">Single</option>
+							<option value="MFJ">Married Filing Jointly</option>
+							<option value="HH">Head of House Hold</option>
+						</select>
+						<br />
+							<label>Salary:</label>
+							<input id="salary" name="salary" type="text"
+								value="150,000" />
+							<br />
+							<input type="submit" value="calculate" />
+				</form>
+
+			</div>
+			<div class="middle"></div>
+
+			<div class="column2">
+				<h2>Marginal Tax Rate Example</h2>
+				<p>
+					The table below shows the rates and income levels for three types
+					of
+					filer in
+					<span class="replacable">2021:</span>
+					single, married
+					filing jointly, and heads of household
+				</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Rate</th>
+							<th>For Singles With Taxable Income Over</th>
+							<th>For Married Filing Jointly With Taxable Income Over</th>
+							<th>For Heads of Household With Taxable Income Over</th>
+						</tr>
+					</thead>
+					<tbody class="money">
+
+						<tr>
+							<td>10%</td>
+							<td>0.00</td>
+							<td>0.00</td>
+							<td>0.00</td>
+						</tr>
+
+						<tr>
+							<td>12%</td>
+							<td>9,950.00</td>
+							<td>19,900.00</td>
+							<td>14,200.00</td>
+						</tr>
+
+						<tr>
+							<td>22%</td>
+							<td>40,525.00</td>
+							<td>81,050.00</td>
+							<td>54,200.00</td>
+						</tr>
+
+						<tr>
+							<td>24%</td>
+							<td>86,375.00</td>
+							<td>172,750.00</td>
+							<td>86,350.00</td>
+						</tr>
+
+						<tr>
+							<td>32%</td>
+							<td>164,925.00</td>
+							<td>329,850.00</td>
+							<td>164,900.00</td>
+						</tr>
+
+						<tr>
+							<td>35%</td>
+							<td>209,425.00</td>
+							<td>418,850.00</td>
+							<td>209,400.00</td>
+						</tr>
+
+						<tr>
+							<td>37%</td>
+							<td>523,600.00</td>
+							<td>628,300.00</td>
+							<td>523,600.00</td>
+						</tr>
+
+					</tbody>
+				</table>
+				<p>Individuals who make the lowest amount of income are placed
+					into
+					the lowest marginal tax rate bracket,while higher-earning
+					individuals are placed into higher marginal tax brackets. However,
+					the marginal tax bracket in which an individual falls does not
+					determine how the entire income is taxed. Instead, income taxes are
+					assessed progressively, with each bracket having a range of income
+					values that are taxed at a particular rate.
+				</p>
+
+				<p>
+					Under the current plan, if a
+					<span class="replacable">Single
+					</span>
+					taxpayer earned
+					<span class="replacable">150,000.00</span>
+					in
+					taxable income, they would owe the following income taxes for
+					<span class="replacable">2021</span>
+					(due in April
+					<span class="replacable">2022</span>
+					), as shown below:
+				</p>
+				<ul>
+
+					<li>
+						<strong>10% Bracket: </strong>
+						(9,950.00 - 0.00) * 10% =
+						995.00
+					</li>
+					<li>
+						<strong>12% Bracket: </strong>
+						(40,525.00 - 9,950.00) * 12%
+						= 3,669.00
+					</li>
+					<li>
+						<strong>22% Bracket: </strong>
+						(86,375.00 - 40,525.00) * 22%
+						= 10,087.00
+					</li>
+
+					<li>
+						<strong>24% Bracket: </strong>
+						(150,000.00 - 86,375.00) *
+						24% = 15,270.00
+					</li>
+					<li>
+						<strong>32% Bracket: </strong>
+						Not Applicable
+					</li>
+					<li>
+						<strong>35% Bracket: </strong>
+						Not Applicable
+					</li>
+					<li>
+						<strong>37% Bracket: </strong>
+						Not Applicable
+					</li>
+				</ul>
+				<p>
+					If you add up these amounts, the entire tax liability for this
+					individual would be
+					<span class="replacable">$30,021.00</span>
+					, or
+					an effective tax rate of
+					<span class="replacable">20.01%</span>
+					<span class="replacable">($30,021.00 / $150,000.00)</span>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
