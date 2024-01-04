@@ -11,8 +11,6 @@ Marginal Tax Rate Web App that calculates users taax rate according to the year,
 - [Explanation of Classes](#explanation-of-classes)
 - [Important Files](#important-files)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
